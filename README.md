@@ -69,7 +69,7 @@ This project provides an [ANTLR][] 4 grammar, [BraceExpansion.g4][].
         </snapshots>
         <id>bintray-adjohnson916-maven</id>
         <name>bintray-adjohnson916-maven</name>
-        <url>http://dl.bintray.com/adjohnson916/maven</url>
+        <url>https://dl.bintray.com/adjohnson916/maven</url>
     </repository>
 </repositories>
 
