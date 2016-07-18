@@ -1,7 +1,7 @@
 # brace-expansion
 
 [![Build Status](https://travis-ci.org/adjohnson916/brace-expansion-java.png)](https://travis-ci.org/adjohnson916/brace-expansion-java)
-[![Download](https://api.bintray.com/packages/adjohnson916/maven/brace-expansion/images/download.svg) ][download]
+[ ![Download](https://img.shields.io/maven-central/v/me.andrz/brace-expansion.svg) ][download]
 
 [Brace expansion] from Bash/shell in Java.
 
@@ -62,17 +62,6 @@ This project provides an [ANTLR][] 4 grammar, [BraceExpansion.g4][].
 ### Maven
 
 ```xml
-<repositories>
-    <repository>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
-        <id>bintray-adjohnson916-maven</id>
-        <name>bintray-adjohnson916-maven</name>
-        <url>https://dl.bintray.com/adjohnson916/maven</url>
-    </repository>
-</repositories>
-
 <dependencies>
     <dependency>
         <groupId>me.andrz</groupId>
@@ -85,12 +74,6 @@ This project provides an [ANTLR][] 4 grammar, [BraceExpansion.g4][].
 ### Gradle
 
 ```gradle
-repositories {
-    maven {
-        url  "https://dl.bintray.com/adjohnson916/maven" 
-    }
-}
-
 dependencies {
     compile 'me.andrz:brace-expansion:1.0.0'
 }
@@ -98,7 +81,7 @@ dependencies {
 
 ### Manual
 
-[Download JAR from BinTray][download].
+[Download JAR from Maven Central][download].
 
 ## References
 
@@ -113,4 +96,4 @@ dependencies {
 [brace expansion]: https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html
 [BraceExpansion.g4]: src/main/antlr/me/andrz/brace/antlr/BraceExpansion.g4
 [antlr]: http://www.antlr.org/
-[download]: https://bintray.com/artifact/download/adjohnson916/maven/me/andrz/brace-expansion/1.0.0/brace-expansion-1.0.0.jar
+[download]: https://repo1.maven.org/maven2/me/andrz/brace-expansion/1.0.0/brace-expansion-1.0.0.jar
