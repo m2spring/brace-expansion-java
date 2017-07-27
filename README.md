@@ -1,6 +1,6 @@
 # brace-expansion
 
-[![Build Status](https://travis-ci.org/adjohnson916/brace-expansion-java.png)](https://travis-ci.org/adjohnson916/brace-expansion-java)
+[![Build Status](https://travis-ci.org/AndersDJohnson/brace-expansion-java.png)](https://travis-ci.org/AndersDJohnson/brace-expansion-java)
 [ ![Download](https://img.shields.io/maven-central/v/me.andrz/brace-expansion.svg) ][download]
 
 [Brace expansion] from Bash/shell in Java.
@@ -95,7 +95,7 @@ dependencies {
 
 ## Alternatives
 
-* https://gist.github.com/adjohnson916/c81a62266457bb307e29
+* https://gist.github.com/AndersDJohnson/c81a62266457bb307e29
 
 [brace expansion]: https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html
 [BraceExpansion.g4]: src/main/antlr/me/andrz/brace/antlr/BraceExpansion.g4
